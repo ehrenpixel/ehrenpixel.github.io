@@ -1,0 +1,22 @@
+---
+layout: '@/layouts/PageLayout.astro'
+title: About
+activeHeaderLink: About
+---
+
+# About
+
+Nordlys is a minimal Astro blog theme, ideal for a personal blog and showcasing a projects portfolio. It is fully customizable with baked-in theming and ready-to-use components. Developed by [FjellOverflow](https://github.com/FjellOverflow) using [Astro](https://astro.build/) and [Tailwindcss](https://tailwindcss.com/). The name _Nordlys_ comes from Norwegian and means [_Northern Lights_](https://en.wikipedia.org/wiki/Aurora) or [_Aurora_](https://en.wikipedia.org/wiki/Aurora), which is also reflected in the logo!
+
+import logo from '@/assets/logo.svg'
+import { Image } from 'astro:assets'
+
+<Image alt="Nordlys logo, a drawing of two gray mountains with green northern lights in the background" src={logo} loading="eager" class="w-1/3 md:w-1/6 mx-auto" />
+
+## Built-in Pages
+
+The theme includes a [landing](/) page, [blog](/posts/), [projects](/projects/) section, [about](/about/) page and a [404](/404/) page. Adding new content is straightforward - simply create a new `.md` file in the `src/pages`, `src/content/posts` or `src/content/projects` directories and start writing! Take a look at the provided examples to see how to tweak and configure the pages correctly.
+
+## Configuration & Customization
+
+All basic configuration is done in `src/theme.config.ts`. To learn more about how you can configure and customize this theme, visit the [blog](/posts/) section. There you will find tutorials and feature showcases. Nordlys offers a variety of features, such as a light/dark mode, icons, custom components, color schemes, and headers for code-blocks.
