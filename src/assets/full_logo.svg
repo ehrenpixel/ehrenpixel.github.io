@@ -7,112 +7,8 @@
    viewBox="0 0 270.93332 270.93332"
    version="1.1"
    id="svg1"
-   inkscape:export-filename="ehrenpixel_logo.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="ehrenpixel_logo.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showguides="false"
-     showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="507.70266"
-     inkscape:cy="533.1585"
-     inkscape:window-width="2349"
-     inkscape:window-height="2041"
-     inkscape:window-x="32"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer3"
-     inkscape:clip-to-page="false">
-    <inkscape:grid
-       id="grid2"
-       units="mm"
-       originx="-85"
-       originy="-70"
-       spacingx="0.99999998"
-       spacingy="1"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       enabled="true"
-       visible="false" />
-    <sodipodi:guide
-       position="17.000001,13.999994"
-       orientation="1,0"
-       id="guide4"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="7.4718748,7.4109382"
-       orientation="1,0"
-       id="guide7"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="7.4718728,7.4109482"
-       orientation="0,-1"
-       id="guide8"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="6.4143758,6.8964382"
-       orientation="0,-1"
-       id="guide9"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="9.4322768,2.2701483"
-       orientation="1,0"
-       id="guide10"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="10.56627,2.2701483"
-       orientation="1,0"
-       id="guide11"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="9.8153478,2.2701583"
-       orientation="1,0"
-       id="guide12"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="10.183194,2.2701583"
-       orientation="1,0"
-       id="guide13"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="9.9992708,2.7961483"
-       orientation="1,0"
-       id="guide14"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="9.7415448,3.1593083"
-       orientation="0,-1"
-       id="guide15"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="2.4687628,3.7251383"
-       orientation="0,-1"
-       id="guide16"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="2.7253168,3.9641183"
-       orientation="1,0"
-       id="guide17"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
   <defs
      id="defs1" />
   <rect
@@ -126,17 +22,13 @@
      id="g7"
      transform="matrix(22.674882,0,0,22.674889,-1973.8066,-1624.8235)">
     <g
-       inkscape:label="icon"
-       inkscape:groupmode="layer"
        id="layer1"
        style="display:inline">
       <path
-         style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:inline;fill:#212528;stroke-width:0.264583;fill-opacity:1"
+         style="letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1;stroke-width:0.264583"
          d="m 89.01471,79.766137 6e-6,-1.207158 V 75.84398 h 1.515844 v 2.268509 h 1.627122 v -2.10564 h 1.675503 v 2.105635 h 1.64178 v -2.271005 h 1.51033 v 3.924658 z"
          id="text10"
-         aria-label="EHRENPiXEL"
-         sodipodi:nodetypes="cccccccccccccc"
-         inkscape:label="path10" />
+         aria-label="EHRENPiXEL" />
       <rect
          style="display:inline;fill:#ff6633;fill-opacity:1;stroke-width:0.244068"
          id="rect10"
@@ -147,23 +39,18 @@
          transform="rotate(-90)" />
     </g>
     <g
-       inkscape:groupmode="layer"
        id="layer3"
-       inkscape:label="Ehrenpixel"
        transform="matrix(0.04479214,0,0,0.04479214,78.288744,75.945012)">
       <path
-         style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:none;fill:#1a1a1a"
+         style="letter-spacing:-0.3px;display:none;fill:#1a1a1a"
          d="m 239.46093,94.808335 h 14.62501 v 5.729175 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 h -14.83335 z m 23.15835,12.375005 h 5.41667 V 94.808335 h 6.31251 v 30.125025 h -6.31251 v -12.04168 h -5.41667 v 12.04168 h -6.3125 V 94.808335 h 6.3125 z m 25.84586,17.75002 -3.75001,-10.89584 h -1.66666 v 10.89584 h -6.31251 V 99.058338 l 4.58334,-4.250003 h 12.89584 v 19.145845 h -3.41667 l 4,10.97918 z m -0.5625,-16.54168 v -7.85417 h -4.85417 v 7.85417 z m 8.92917,-13.583345 h 14.62501 v 5.729175 h -8.37501 v 5.8125 h 7.95834 v 5.625 h -7.875 v 7.25001 h 8.5 v 5.70834 h -14.83334 z m 29.22085,17.291675 V 94.808335 h 5.95834 v 30.125025 h -6.25 l -6.16668,-17.29168 v 17.29168 h -5.91667 V 94.808335 h 6.25001 z m 14.92918,12.83335 h -6.3125 V 99.058338 l 4.5625,-4.250003 h 12.91668 v 22.479185 h -11.16668 z m 4.85417,-13.41668 v -10.97917 h -4.85417 v 10.97917 z m 15.01252,-7.45834 v 20.87502 h -6.31251 v -20.87502 z m 9.2625,20.87502 h -6.8125 l 5.5,-15.81251 -4.54167,-14.312515 h 6.47917 l 2.64584,8.895835 2.6875,-8.895835 h 6.47917 l -4.58333,14.312515 5.5,15.81251 h -6.8125 l -3.27084,-9.35418 z M 385.4152,94.808335 h 14.62501 v 5.729175 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 H 385.4152 Z m 16.84586,30.125025 V 94.808335 h 6.3125 v 24.416685 h 8.83334 v 5.70834 z"
          id="path11"
-         aria-label="EHRENPiXEL"
-         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-         inkscape:label="original" />
+         aria-label="EHRENPiXEL" />
       <path
-         style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1"
+         style="letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1"
          d="m 239.46091,100.53745 h 14.62501 v 5.72918 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 h -14.83335 z m 23.15835,12.37501 h 5.41667 v -12.37501 h 6.31251 v 30.12503 h -6.31251 V 118.6208 h -5.41667 v 12.04168 h -6.3125 v -30.12503 h 6.3125 z m 25.84586,17.75002 -3.75001,-10.89584 h -1.66666 v 10.89584 h -6.31251 c -9.8e-4,-10.04167 0.002,-20.08335 -0.002,-30.12503 h 17.48076 v 19.14585 h -3.41667 l 4,10.97918 z m -0.5625,-16.54168 v -7.85417 h -4.85417 v 7.85417 z m 8.92917,-13.58335 h 14.62501 v 5.72918 h -8.37501 v 5.8125 h 7.95834 v 5.625 h -7.875 v 7.25001 h 8.5 v 5.70834 h -14.83334 z m 29.22085,17.29168 v -17.29168 h 5.95834 v 30.12503 h -6.25 L 319.5943,113.3708 v 17.29168 h -5.91667 v -30.12503 h 6.25001 z m 14.92918,12.83335 h -6.3125 v -25.87503 l 4.5625,-4.25 h 12.91668 v 22.47919 h -11.16668 z m 4.85417,-13.41668 v -10.97917 h -4.85417 v 10.97917 z m 15.01252,-7.45834 v 20.87502 H 354.536 v -20.87502 z m 9.2625,20.87502 h -6.8125 l 5.5,-15.81251 -4.54167,-14.31252 h 6.47917 l 2.64584,8.89584 2.6875,-8.89584 h 6.47917 l -4.58333,14.31252 5.5,15.81251 h -6.8125 l -3.27084,-9.35418 z m 15.30417,-30.12503 h 14.62501 v 5.72918 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 h -14.83335 z m 16.84586,30.12503 v -30.12503 h 6.3125 v 24.41669 h 8.83334 v 5.70834 z"
          id="text10-1"
-         aria-label="EHRENPiXEL"
-         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+         aria-label="EHRENPiXEL" />
       <rect
          style="display:inline;fill:#ff6633;fill-opacity:1"
          id="rect10-0"

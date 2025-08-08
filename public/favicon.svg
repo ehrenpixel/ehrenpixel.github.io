@@ -7,42 +7,15 @@
    viewBox="0 0 186.02376 144.14877"
    version="1.1"
    id="svg1"
-   sodipodi:docname="favicon.svg"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   inkscape:export-filename="ehrenpixel_icon.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="1"
-     inkscape:cx="269.5"
-     inkscape:cy="392.5"
-     inkscape:window-width="1784"
-     inkscape:window-height="1330"
-     inkscape:window-x="1329"
-     inkscape:window-y="379"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg1" />
   <defs
      id="defs1" />
   <path
-     style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1;stroke:#fcfcfc;stroke-width:5.29166;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     style="letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1;stroke:#fcfcfc;stroke-width:5.29166;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
      d="m 2.645846,141.50295 1.361e-4,-27.37218 V 52.568472 H 37.017566 V 104.00666 H 73.912365 V 56.261509 H 111.9042 v 47.745041 h 37.22717 V 52.511762 h 34.24655 v 88.991188 z"
      id="text10"
-     aria-label="EHRENPiXEL"
-     inkscape:label="E" />
+     aria-label="EHRENPiXEL" />
   <rect
      style="display:inline;fill:#ff6633;fill-opacity:1;stroke:#fcfcfc;stroke-width:5.29166;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
      id="rect10"
@@ -50,6 +23,5 @@
      height="37.86705"
      x="-40.512897"
      y="73.912415"
-     transform="rotate(-90)"
-     inkscape:label="pixel" />
+     transform="rotate(-90)" />
 </svg>
