@@ -21,6 +21,16 @@ export default defineThemeConfig({
       icon: 'tabler--brand-x',
       href: 'https://x.com/ehrenpixel/',
       label: 'Follow us on X (Twitter)'
+    },
+    {
+      icon: 'tabler--brand-twitch',
+      href: 'https://www.twitch.tv/ehrenpixel',
+      label: 'Watch us on Twitch'
+    },
+    {
+      icon: 'tabler--brand-youtube',
+      href: 'https://www.youtube.com/@ehrenpixel',
+      label: 'Subscribe to our YouTube channel'
     }
   ],
 
