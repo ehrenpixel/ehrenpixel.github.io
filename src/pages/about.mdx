@@ -1,22 +1,32 @@
 ---
 layout: '@/layouts/PageLayout.astro'
-title: About
+title: Games with principles
 activeHeaderLink: About
 ---
 
-# About
+# Games with principles
 
-Nordlys is a minimal Astro blog theme, ideal for a personal blog and showcasing a projects portfolio. It is fully customizable with baked-in theming and ready-to-use components. Developed by [FjellOverflow](https://github.com/FjellOverflow) using [Astro](https://astro.build/) and [Tailwindcss](https://tailwindcss.com/). The name _Nordlys_ comes from Norwegian and means [_Northern Lights_](https://en.wikipedia.org/wiki/Aurora) or [_Aurora_](https://en.wikipedia.org/wiki/Aurora), which is also reflected in the logo!
+We’re Ehrenpixel — an indie game studio born from the simple idea that games should respect the people who play them.
 
-import logo from '@/assets/logo.svg'
+We’re not here to sell your data, flood your screen with ads, or lock fun behind a paywall.
+No pay-to-win. No tricks. No nonsense. Just games — honest, handcrafted, and driven by passion.
+
+We’re gamers first. Developers second.
+We build what we’d want to play: games that respect your time, your privacy, and your intelligence.
+
+Our community matters. We listen. We update. We improve.
+Because making great games isn’t a transaction — it’s a dialogue.
+
+Every pixel we place, every line of code we write, is guided by a simple principle:\
+**Honor the player. Respect the game.**
+
+Crafted in Germany. Made with care. Played with joy.
+That’s Ehrenpixel.
+
+import logo from '@/assets/full_logo.svg'
+import logoDark from '@/assets/full_logo_dark.svg'
 import { Image } from 'astro:assets'
 
-<Image alt="Nordlys logo, a drawing of two gray mountains with green northern lights in the background" src={logo} loading="eager" class="w-1/3 md:w-1/6 mx-auto" />
+<Image alt="Ehrenpixel logo featuring a bold, geometric black castle-like shape with a central red-orange pixel above it, symbolizing honor and precision in gaming. The word 'EHRENPIXEL' is written below in a modern, all-caps font, with the 'i' stylized using a matching red-orange pixel for visual emphasis." src={logo} loading="eager" class="w-1/2 md:w-1/4 mx-auto block dark:hidden" />
 
-## Built-in Pages
-
-The theme includes a [landing](/) page, [blog](/posts/), [projects](/projects/) section, [about](/about/) page and a [404](/404/) page. Adding new content is straightforward - simply create a new `.md` file in the `src/pages`, `src/content/posts` or `src/content/projects` directories and start writing! Take a look at the provided examples to see how to tweak and configure the pages correctly.
-
-## Configuration & Customization
-
-All basic configuration is done in `src/theme.config.ts`. To learn more about how you can configure and customize this theme, visit the [blog](/posts/) section. There you will find tutorials and feature showcases. Nordlys offers a variety of features, such as a light/dark mode, icons, custom components, color schemes, and headers for code-blocks.
+<Image alt="Ehrenpixel logo featuring a bold, geometric white castle-like shape with a central red-orange pixel above it, symbolizing honor and precision in gaming. The word 'EHRENPIXEL' is written below in a modern, all-caps font, with the 'i' stylized using a matching red-orange pixel for visual emphasis." src={logoDark} loading="eager" class="w-1/2 md:w-1/4 mx-auto hidden dark:block" />

@@ -28,4 +28,40 @@
       --accent-bg: 35, 39, 48;
     }
   }
+
+  .scheme-ehrenpixel {
+    --accent: 255, 102, 51;
+    --accent-bg: 252, 252, 252;
+
+    /* Text colors for light theme */
+    --text-primary: 33, 37, 40; /* Deep Space Black */
+    --text-secondary: 129, 129, 129; /* Medium Grey */
+
+    /* Syntax highlighting colors for light theme */
+    --syntax-text: 33, 37, 40; /* Deep Space Black */
+    --syntax-keyword: 255, 102, 51; /* Pixel Orange for keywords */
+    --syntax-string: 33, 37, 40; /* Deep Space Black for strings */
+    --syntax-comment: 129, 129, 129; /* Medium Grey for comments */
+    --syntax-function: 255, 102, 51; /* Pixel Orange for functions */
+    --syntax-number: 33, 37, 40; /* Deep Space Black for numbers */
+    --syntax-variable: 33, 37, 40; /* Deep Space Black for variables */
+
+    &[data-mode='dark'] {
+      --accent: 255, 102, 51;
+      --accent-bg: 33, 37, 40;
+
+      /* Text colors for dark theme */
+      --text-primary: 252, 252, 252; /* Ehren White */
+      --text-secondary: 129, 129, 129; /* Medium Grey */
+
+      /* Syntax highlighting colors for dark theme */
+      --syntax-text: 252, 252, 252; /* Ehren White */
+      --syntax-keyword: 255, 102, 51; /* Pixel Orange for keywords */
+      --syntax-string: 252, 252, 252; /* Ehren White for strings */
+      --syntax-comment: 129, 129, 129; /* Medium Grey for comments */
+      --syntax-function: 255, 102, 51; /* Pixel Orange for functions */
+      --syntax-number: 252, 252, 252; /* Ehren White for numbers */
+      --syntax-variable: 252, 252, 252; /* Ehren White for variables */
+    }
+  }
 }

@@ -1,31 +1,17 @@
 import { defineThemeConfig } from './types'
 
 export default defineThemeConfig({
-  site: 'https://nordlys.fjelloverflow.dev',
-  title: 'Nordlys',
-  description: 'A minimal Astro blog theme',
-  author: 'FjellOverflow',
+  site: 'https://www.ehrenpixel.com',
+  title: 'EHRENPiXEL',
+  description:
+    'Games with principles. Crafted in Germany. Made with care. Played with joy.',
+  author: 'EHRENPiXEL',
   navbarItems: [
     { label: 'Blog', href: '/posts/' },
     { label: 'Projects', href: '/projects/' },
-    { label: 'Tags', href: '/tags/' },
-    { label: 'About', href: '/about/' },
-    {
-      label: 'Other pages',
-      children: [
-        { label: 'Landing page', href: '/' },
-        { label: '404 page', href: '/404' },
-        { label: 'Author: FjellOverflow', href: '/authors/FjellOverflow/' },
-        { label: 'Tag: documentation', href: '/tags/documentation/' }
-      ]
-    }
+    { label: 'About', href: '/about/' }
   ],
   footerItems: [
-    {
-      icon: 'tabler--brand-github',
-      href: 'https://github.com/FjellOverflow/nordlys',
-      label: 'Github'
-    },
     {
       icon: 'tabler--rss',
       href: '/feed.xml',
@@ -37,7 +23,7 @@ export default defineThemeConfig({
   locale: 'en',
   mode: 'dark',
   modeToggle: true,
-  colorScheme: 'scheme-mono',
+  colorScheme: 'scheme-ehrenpixel',
   openGraphImage: undefined,
   postsPerPage: 4,
   projectsPerPage: 3,

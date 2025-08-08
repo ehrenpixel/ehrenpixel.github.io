@@ -32,6 +32,49 @@
   border-top-width: 0;
 }
 
+/* EHRENPiXEL Brand Colors for Syntax Highlighting */
+.scheme-ehrenpixel .astro-code {
+  color: rgb(var(--syntax-text)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.keyword,
+.scheme-ehrenpixel .astro-code .token.operator,
+.scheme-ehrenpixel .astro-code .token.important,
+.scheme-ehrenpixel .astro-code .token.boolean {
+  color: rgb(var(--syntax-keyword)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.string,
+.scheme-ehrenpixel .astro-code .token.char,
+.scheme-ehrenpixel .astro-code .token.attr-value {
+  color: rgb(var(--syntax-string)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.comment,
+.scheme-ehrenpixel .astro-code .token.prolog,
+.scheme-ehrenpixel .astro-code .token.doctype,
+.scheme-ehrenpixel .astro-code .token.cdata {
+  color: rgb(var(--syntax-comment)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.function,
+.scheme-ehrenpixel .astro-code .token.method,
+.scheme-ehrenpixel .astro-code .token.class-name {
+  color: rgb(var(--syntax-function)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.number,
+.scheme-ehrenpixel .astro-code .token.constant {
+  color: rgb(var(--syntax-number)) !important;
+}
+
+.scheme-ehrenpixel .astro-code .token.variable,
+.scheme-ehrenpixel .astro-code .token.property,
+.scheme-ehrenpixel .astro-code .token.tag,
+.scheme-ehrenpixel .astro-code .token.attr-name {
+  color: rgb(var(--syntax-variable)) !important;
+}
+
 html[data-mode='dark'] {
   .astro-code,
   .astro-code span {

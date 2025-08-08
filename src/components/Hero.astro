@@ -1,5 +1,6 @@
 ---
 import logo from '@/assets/logo.svg'
+import logoDark from '@/assets/logo_dark.svg'
 import { Image } from 'astro:assets'
 
 export interface Props {
@@ -29,12 +30,20 @@ const { gradient, background, logo: showLogo } = Astro.props.frontmatter
     <div class="flex items-center gap-4 sm:gap-8">
       {
         showLogo && (
-          <Image
-            loading="eager"
-            alt="Nordlys logo, a drawing of two gray mountains with green northern lights in the background"
-            src={logo}
-            class="h-[48px] w-fit object-scale-down sm:h-24"
-          />
+          <>
+            <Image
+              loading="eager"
+              alt="EHRENPiXEL Logo. The word is written in a modern, all-caps font, with the 'i' stylized using a red-orange pixel for visual emphasis."
+              src={logo}
+              class="block h-[64px] w-fit object-scale-down sm:h-32 dark:hidden"
+            />
+            <Image
+              loading="eager"
+              alt="EHRENPiXEL Logo. The word is written in a modern, all-caps font, with the 'i' stylized using a red-orange pixel for visual emphasis."
+              src={logoDark}
+              class="hidden h-[64px] w-fit object-scale-down sm:h-32 dark:block"
+            />
+          </>
         )
       }
       <h1>

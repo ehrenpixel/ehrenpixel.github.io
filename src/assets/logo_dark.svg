@@ -8,8 +8,8 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="logo.svg"
-   inkscape:export-filename="ehrenpixel.png"
+   sodipodi:docname="logo_dark.svg"
+   inkscape:export-filename="ehrenpixel_light.png"
    inkscape:export-xdpi="191.20317"
    inkscape:export-ydpi="191.20317"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="2.8284273"
-     inkscape:cx="41.896075"
-     inkscape:cy="35.178561"
+     inkscape:zoom="11.313709"
+     inkscape:cx="70.754869"
+     inkscape:cy="30.538173"
      inkscape:window-width="3840"
      inkscape:window-height="2054"
      inkscape:window-x="-11"
@@ -38,12 +38,12 @@
      showguides="false"
      showgrid="false">
     <sodipodi:guide
-       position="49.52376,-43.53496"
+       position="49.52376,13.090038"
        orientation="0,-1"
        id="guide1"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="65.274747,-57.756587"
+       position="65.274747,-1.1315881"
        orientation="0,-1"
        id="guide2"
        inkscape:locked="false" />
@@ -62,12 +62,12 @@
        enabled="true"
        visible="false" />
     <sodipodi:guide
-       position="37.39369,-52.066824"
+       position="37.39369,4.558175"
        orientation="0,-1"
        id="guide3"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-2.5099641,-41.968457"
+       position="-2.509964,14.656542"
        orientation="1,0"
        id="guide11"
        inkscape:locked="false" />
@@ -95,7 +95,7 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
        inkscape:label="original-font" />
     <path
-       style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:inline;fill:#212528;fill-opacity:1"
+       style="font-size:42.6667px;font-family:'Aldo the Apache';-inkscape-font-specification:'Aldo the Apache';letter-spacing:-0.3px;display:inline;fill:#fcfcfc;fill-opacity:1"
        d="m 239.46093,94.808335 h 14.62501 v 5.729175 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 h -14.83335 z m 23.15835,12.375005 h 5.41667 V 94.808335 h 6.31251 v 30.125025 h -6.31251 v -12.04168 h -5.41667 v 12.04168 h -6.3125 V 94.808335 h 6.3125 z m 25.84586,17.75002 -3.75001,-10.89584 h -1.66666 v 10.89584 h -6.31251 c -9.8e-4,-10.04167 0.002,-20.08335 -0.002,-30.125025 h 17.48076 v 19.145845 h -3.41667 l 4,10.97918 z m -0.5625,-16.54168 v -7.85417 h -4.85417 v 7.85417 z m 8.92917,-13.583345 h 14.62501 v 5.729175 h -8.37501 v 5.8125 h 7.95834 v 5.625 h -7.875 v 7.25001 h 8.5 v 5.70834 h -14.83334 z m 29.22085,17.291675 V 94.808335 h 5.95834 v 30.125025 h -6.25 l -6.16668,-17.29168 v 17.29168 h -5.91667 V 94.808335 h 6.25001 z m 14.92918,12.83335 h -6.3125 V 99.058338 l 4.5625,-4.250003 h 12.91668 v 22.479185 h -11.16668 z m 4.85417,-13.41668 v -10.97917 h -4.85417 v 10.97917 z m 15.01252,-7.45834 v 20.87502 h -6.31251 v -20.87502 z m 9.2625,20.87502 h -6.8125 l 5.5,-15.81251 -4.54167,-14.312515 h 6.47917 l 2.64584,8.895835 2.6875,-8.895835 h 6.47917 l -4.58333,14.312515 5.5,15.81251 h -6.8125 l -3.27084,-9.35418 z M 385.4152,94.808335 h 14.62501 v 5.729175 h -8.375 v 5.8125 h 7.95834 v 5.625 h -7.87501 v 7.25001 h 8.50001 v 5.70834 H 385.4152 Z m 16.84586,30.125025 V 94.808335 h 6.3125 v 24.416685 h 8.83334 v 5.70834 z"
        id="text10"
        aria-label="EHRENPiXEL"

@@ -1,5 +1,6 @@
 ---
 import logo from '@/assets/logo.svg'
+import logoDark from '@/assets/logo_dark.svg'
 import Dropdown from '@/components/Dropdown.astro'
 import HeaderItem from '@/components/layout/HeaderItem.astro'
 import MobileNavToggle from '@/components/layout/MobileNavToggle.astro'
@@ -29,12 +30,19 @@ export const isNavItem = (item: HeaderItemType): item is NavItemType =>
   <div class="flex justify-between py-4 sm:py-8">
     <a href="/" class="text-accent flex gap-2 text-2xl font-semibold">
       <Image
-        alt="Nordlys logo, a drawing of two gray mountains with green northern lights in the background"
+        alt="EHRENPiXEL Logo. The word is written in a modern, all-caps font, with the 'i' stylized using a red-orange pixel for visual emphasis."
         src={logo}
         height={24}
         loading="eager"
+        class="block dark:hidden"
       />
-      {config.title}
+      <Image
+        alt="EHRENPiXEL Logo. The word is written in a modern, all-caps font, with the 'i' stylized using a red-orange pixel for visual emphasis."
+        src={logoDark}
+        height={24}
+        loading="eager"
+        class="hidden dark:block"
+      />
     </a>
     <nav class="hidden flex-col justify-end sm:flex">
       <ul class="flex gap-6">

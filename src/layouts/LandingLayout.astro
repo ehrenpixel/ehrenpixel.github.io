@@ -25,10 +25,10 @@ const latestPost = (await getPosts())[0]
   >
     <div class="mt-16 px-4 sm:mt-36 sm:px-12">
       <main id="main">
-        {frontmatter.title && <Hero {frontmatter}>{frontmatter.title}</Hero>}
+        {frontmatter.title && <Hero {frontmatter} />}
         <div
           id="animated-links"
-          class="text-3xl font-semibold tracking-tight text-gray-700/50 sm:text-4xl sm:leading-[46px] dark:text-gray-300/50"
+          class="text-justify text-3xl font-semibold tracking-tight text-gray-700/50 sm:text-4xl sm:leading-[46px] dark:text-gray-300/50"
         >
           <slot />
           {

@@ -21,8 +21,84 @@
       background-color: #000000bf !important;
     }
   }
+
+  /* EHRENPiXEL Brand Text Colors */
+  .scheme-ehrenpixel {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: rgb(var(--text-primary)) !important;
+    }
+
+    p,
+    div,
+    span {
+      color: rgb(var(--text-primary));
+    }
+
+    /* Override Tailwind Prose colors */
+    .prose h1,
+    .prose h2,
+    .prose h3,
+    .prose h4,
+    .prose h5,
+    .prose h6 {
+      color: rgb(var(--text-primary)) !important;
+    }
+
+    .prose p,
+    .prose li,
+    .prose td,
+    .prose th,
+    .prose strong,
+    .prose em {
+      color: rgb(var(--text-primary)) !important;
+    }
+
+    .prose blockquote {
+      color: rgb(var(--text-secondary)) !important;
+    }
+  }
 }
 
 @utility clickable {
   @apply hover:text-accent cursor-pointer opacity-75 transition duration-500 ease-in-out hover:opacity-100;
+}
+
+/* EHRENPiXEL Brand Colors for Clickable Elements */
+.scheme-ehrenpixel .clickable {
+  color: rgb(var(--text-primary)) !important;
+
+  &:hover {
+    color: rgb(var(--accent)) !important;
+  }
+}
+
+/* EHRENPiXEL Brand Colors for Regular Links (excluding animated-links) */
+.scheme-ehrenpixel a:not(.clickable):not(#animated-links a) {
+  color: rgb(var(--text-primary)) !important;
+
+  &:hover {
+    color: rgb(var(--accent)) !important;
+  }
+}
+
+/* EHRENPiXEL Brand Colors for Code Elements */
+.scheme-ehrenpixel code:not(.astro-code code):not(.astro-code-header code) {
+  color: rgb(var(--text-primary)) !important;
+}
+
+.scheme-ehrenpixel
+  .prose
+  code:not(.astro-code code):not(.astro-code-header code) {
+  color: rgb(var(--text-primary)) !important;
+}
+
+/* Ensure logo SVGs maintain their original colors */
+.scheme-ehrenpixel img[alt*='EHRENPiXEL Logo'] {
+  filter: none !important;
+  color: inherit !important;
 }
