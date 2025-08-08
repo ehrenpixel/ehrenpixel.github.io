@@ -13,9 +13,14 @@ export default defineThemeConfig({
   ],
   footerItems: [
     {
-      icon: 'tabler--rss',
-      href: '/feed.xml',
-      label: 'RSS feed'
+      icon: 'tabler--brand-discord',
+      href: 'https://discord.gg/Vrb4Hmb4XG',
+      label: 'Join our community on Discord'
+    },
+    {
+      icon: 'tabler--brand-x',
+      href: 'https://x.com/ehrenpixel/',
+      label: 'Follow us on X (Twitter)'
     }
   ],
 
