@@ -68,6 +68,10 @@ const latestPost = (await getPosts())[0]
   #animated-links {
     a {
       color: rgb(var(--accent));
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
 
       background-image: linear-gradient(
         transparent calc(85% - 5px),
