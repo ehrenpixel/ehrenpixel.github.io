@@ -31,6 +31,11 @@ export default defineThemeConfig({
       icon: 'tabler--brand-youtube',
       href: 'https://www.youtube.com/@ehrenpixel',
       label: 'Subscribe to our YouTube channel'
+    },
+    {
+      icon: 'tabler--brand-google-play',
+      href: 'https://play.google.com/store/apps/dev?id=8416335982805315188',
+      label: 'See our games on Google Play'
     }
   ],
 
