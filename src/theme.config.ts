@@ -14,7 +14,7 @@ export default defineThemeConfig({
   footerItems: [
     {
       icon: 'tabler--brand-discord',
-      href: 'https://discord.gg/Vrb4Hmb4XG',
+      href: 'https://discord.gg/S76jYt4Uj4',
       label: 'Join our community on Discord'
     },
     {
