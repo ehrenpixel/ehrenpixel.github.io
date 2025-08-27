@@ -23,11 +23,6 @@ export default defineThemeConfig({
       label: 'Follow us on X (Twitter)'
     },
     {
-      icon: 'tabler--brand-instagram',
-      href: 'https://www.instagram.com/ehrenpixel/',
-      label: 'Follow us on Instagram'
-    },
-    {
       icon: 'tabler--brand-twitch',
       href: 'https://www.twitch.tv/ehrenpixel',
       label: 'Watch us on Twitch'
@@ -36,11 +31,6 @@ export default defineThemeConfig({
       icon: 'tabler--brand-youtube',
       href: 'https://www.youtube.com/@ehrenpixel',
       label: 'Subscribe to our YouTube channel'
-    },
-    {
-      icon: 'tabler--brand-tiktok',
-      href: 'https://www.tiktok.com/@ehrenpixel',
-      label: 'Follow us on TikTok'
     },
     {
       icon: 'tabler--brand-google-play',
