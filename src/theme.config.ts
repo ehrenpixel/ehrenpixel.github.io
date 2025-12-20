@@ -9,7 +9,8 @@ export default defineThemeConfig({
   navbarItems: [
     { label: 'Blog', href: '/posts/' },
     { label: 'Projects', href: '/projects/' },
-    { label: 'About', href: '/about/' }
+    { label: 'About', href: '/about/' },
+    { label: 'Privacy Policy', href: '/privacy/' }
   ],
   footerItems: [
     {
