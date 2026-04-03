@@ -3,8 +3,7 @@ import { defineThemeConfig } from './types'
 export default defineThemeConfig({
   site: 'https://www.ehrenpixel.com',
   title: 'EHRENPiXEL',
-  description:
-    'Games with principles. Crafted in Germany. Made with care. Played with joy.',
+  description: 'Software that earns its name.',
   author: 'EHRENPiXEL',
   navbarItems: [
     { label: 'Blog', href: '/posts/' },

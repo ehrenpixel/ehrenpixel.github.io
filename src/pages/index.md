@@ -5,5 +5,5 @@ background: false
 logo: true
 ---
 
-Honor the Player. Respect the Game.\
-This is our promise. See what we [create](/projects/), how we [build](/posts/), and what we [believe](/about/).
+Software that earns its name.\
+See what we [build](/projects/), how we [think](/posts/), and what we [believe](/about/).
