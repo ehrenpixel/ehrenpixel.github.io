@@ -1,0 +1,477 @@
+---
+import '@/style/main.css'
+import ibmPlexNormal from '@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-400-normal.woff2?url'
+import ibmPlexMedium from '@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-500-normal.woff2?url'
+import ibmPlexSemiBold from '@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-600-normal.woff2?url'
+import ibmPlexBold from '@fontsource/ibm-plex-sans/files/ibm-plex-sans-latin-700-normal.woff2?url'
+import '@fontsource/ibm-plex-sans/latin.css'
+
+import logoLight from '@/assets/logo.svg'
+import logoDark from '@/assets/logo_dark.svg'
+
+import ModeManager from '@/components/mode/ModeManager.astro'
+import ModeToggle from '@/components/mode/ModeToggle.astro'
+
+import { Image } from 'astro:assets'
+import config from '@/theme.config'
+
+const preloadFonts = [
+  ibmPlexNormal,
+  ibmPlexMedium,
+  ibmPlexSemiBold,
+  ibmPlexBold
+]
+
+const title = 'EHRENPiXEL — Honor the craft. Multiply the output.'
+const description =
+  'An AI-native canvas for indie visual artists who care about craft. Rough in, polished out — without losing the line that makes the work yours.'
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).href
+const openGraphImageUrl = new URL('/ogImage.png', Astro.site).href
+
+const isSubmitted = Astro.url.searchParams.get('submitted') === '1'
+---
+
+<!doctype html>
+<html lang={config.locale} class={config.colorScheme || 'scheme-ehrenpixel'}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    <meta name="author" content="EHRENPiXEL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={openGraphImageUrl} />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={openGraphImageUrl} />
+    {
+      preloadFonts.map((href) => (
+        <link
+          rel="preload"
+          as="font"
+          type="font/woff2"
+          href={href}
+          crossorigin="anonymous"
+        />
+      ))
+    }
+    <ModeManager />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <a class="logo-link" href="/" aria-label="EHRENPiXEL home">
+          <Image
+            src={logoLight}
+            alt="EHRENPiXEL logo"
+            class="logo logo-light"
+            loading="eager"
+          />
+          <Image
+            src={logoDark}
+            alt="EHRENPiXEL logo"
+            class="logo logo-dark"
+            loading="eager"
+          />
+        </a>
+        <ModeToggle />
+      </header>
+
+      <main id="main">
+        <section class="hero">
+          <h1 class="headline">Honor the craft. Multiply the output.</h1>
+          <p class="subhead">
+            EHRENPiXEL is an AI-native canvas for indie visual artists who care
+            about craft.
+          </p>
+        </section>
+
+        <section class="block" aria-labelledby="who-for">
+          <h2 id="who-for" class="block-title">Who it's for</h2>
+          <ul class="bullets">
+            <li>
+              Indie illustrators and concept artists who ship work weekly.
+            </li>
+            <li>
+              Game art teams of 1–5 producing sprites, tiles, props, and key
+              art.
+            </li>
+            <li>
+              Animators and social-graphic creators on a personal-brand cadence.
+            </li>
+          </ul>
+        </section>
+
+        <section class="block" aria-labelledby="promise">
+          <h2 id="promise" class="block-title">The promise</h2>
+          <p class="promise">
+            Rough in, polished out — without losing the line that makes the work
+            yours.
+          </p>
+        </section>
+
+        <section class="block" aria-labelledby="why-different">
+          <h2 id="why-different" class="block-title">Why we're different</h2>
+          <ul class="bullets">
+            <li>
+              <strong>Style stays yours.</strong> Output reads as your hand,
+              not a model's house style.
+            </li>
+            <li>
+              <strong>You own the output.</strong> No platform IP claim.
+              Export, sell, ship — without asking.
+            </li>
+            <li>
+              <strong>The loop is real work, not a chat.</strong> Sketch,
+              refine, polish, ship — all in one canvas.
+            </li>
+          </ul>
+        </section>
+
+        <section class="block signup" aria-labelledby="signup-title" id="signup">
+          <h2 id="signup-title" class="block-title">Get early access</h2>
+          {
+            isSubmitted ? (
+              <div class="confirmation" role="status" aria-live="polite">
+                <p class="confirmation-title">You're on the list.</p>
+                <p class="confirmation-body">
+                  We'll be in touch when there's something worth showing.
+                </p>
+              </div>
+            ) : (
+              <form
+                class="signup-form"
+                action="https://formsubmit.co/hello@ehrenpixel.com"
+                method="POST"
+              >
+                <input type="hidden" name="_subject" value="EHRENPiXEL — early access signup" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://www.ehrenpixel.com/?submitted=1#signup"
+                />
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+                <label class="visually-hidden" for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  inputmode="email"
+                  autocomplete="email"
+                  required
+                  placeholder="you@studio.com"
+                  class="signup-input"
+                />
+                <button type="submit" class="signup-button">
+                  Get early access
+                </button>
+              </form>
+            )
+          }
+          <p class="privacy">
+            We'll only email you about early access. Unsubscribe anytime.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© EHRENPiXEL 2026</span>
+        <a href="mailto:hello@ehrenpixel.com">hello@ehrenpixel.com</a>
+      </footer>
+    </div>
+
+    <style is:global>
+      :root {
+        overflow-y: auto !important;
+      }
+
+      body {
+        @apply bg-[rgb(var(--accent-bg))] text-[rgb(var(--text-primary))];
+        font-family:
+          'IBM Plex Sans',
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          Roboto,
+          'Helvetica Neue',
+          Arial,
+          sans-serif;
+        line-height: 1.5;
+        margin: 0;
+        min-height: 100svh;
+      }
+
+      .page {
+        max-width: 720px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0 3rem;
+        display: flex;
+        flex-direction: column;
+        min-height: 100svh;
+        gap: 2.5rem;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+      }
+
+      .logo-link {
+        display: inline-flex;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .logo {
+        height: 32px;
+        width: auto;
+        display: block;
+      }
+
+      @media (min-width: 640px) {
+        .logo {
+          height: 40px;
+        }
+      }
+
+      .logo-light {
+        display: block;
+      }
+      .logo-dark {
+        display: none;
+      }
+      [data-mode='dark'] .logo-light {
+        display: none;
+      }
+      [data-mode='dark'] .logo-dark {
+        display: block;
+      }
+
+      main#main {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        flex: 1;
+      }
+
+      .hero {
+        margin-top: 1.5rem;
+      }
+
+      @media (min-width: 640px) {
+        .hero {
+          margin-top: 4rem;
+        }
+      }
+
+      .headline {
+        font-size: clamp(2rem, 6vw, 3.75rem);
+        font-weight: 700;
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+        margin: 0 0 1rem;
+        color: rgb(var(--text-primary));
+      }
+
+      .subhead {
+        font-size: clamp(1.125rem, 2.6vw, 1.5rem);
+        font-weight: 400;
+        line-height: 1.4;
+        color: rgb(var(--text-secondary));
+        margin: 0;
+        max-width: 36ch;
+      }
+
+      .block-title {
+        font-size: 0.825rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: rgb(var(--accent));
+        margin: 0 0 0.875rem;
+      }
+
+      .block p {
+        font-size: 1.0625rem;
+        margin: 0;
+        color: rgb(var(--text-primary));
+      }
+
+      .promise {
+        font-size: 1.25rem !important;
+        line-height: 1.5;
+        max-width: 42ch;
+      }
+
+      .bullets {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+      }
+
+      .bullets li {
+        font-size: 1.0625rem;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 1.25rem;
+        color: rgb(var(--text-primary));
+      }
+
+      .bullets li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0.6rem;
+        width: 8px;
+        height: 8px;
+        background-color: rgb(var(--accent));
+      }
+
+      .bullets li strong {
+        color: rgb(var(--text-primary));
+        font-weight: 600;
+      }
+
+      .signup {
+        margin-top: 0.5rem;
+      }
+
+      .signup-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+      }
+
+      @media (min-width: 480px) {
+        .signup-form {
+          flex-direction: row;
+          align-items: stretch;
+        }
+      }
+
+      .signup-input {
+        flex: 1;
+        font: inherit;
+        font-size: 1rem;
+        padding: 0.75rem 0.875rem;
+        background: transparent;
+        color: rgb(var(--text-primary));
+        border: 1px solid rgb(var(--text-primary) / 0.25);
+        border-radius: 0;
+        outline: none;
+        min-width: 0;
+      }
+
+      .signup-input::placeholder {
+        color: rgb(var(--text-secondary));
+      }
+
+      .signup-input:focus {
+        border-color: rgb(var(--accent));
+        box-shadow: 0 0 0 2px rgb(var(--accent) / 0.25);
+      }
+
+      .signup-button {
+        font: inherit;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.75rem 1.25rem;
+        background: rgb(var(--accent));
+        color: #fff;
+        border: 1px solid rgb(var(--accent));
+        cursor: pointer;
+        border-radius: 0;
+        white-space: nowrap;
+        transition: filter 0.15s ease;
+      }
+
+      .signup-button:hover {
+        filter: brightness(1.08);
+      }
+
+      .signup-button:active {
+        filter: brightness(0.94);
+      }
+
+      .signup-button:focus-visible {
+        outline: 2px solid rgb(var(--accent));
+        outline-offset: 2px;
+      }
+
+      .privacy {
+        margin-top: 0.625rem !important;
+        font-size: 0.8125rem !important;
+        color: rgb(var(--text-secondary)) !important;
+      }
+
+      .confirmation {
+        padding: 1rem 1.25rem;
+        border-left: 4px solid rgb(var(--accent));
+        background: rgb(var(--accent) / 0.06);
+      }
+
+      .confirmation-title {
+        font-size: 1.125rem !important;
+        font-weight: 600;
+        margin: 0 0 0.25rem !important;
+      }
+
+      .confirmation-body {
+        font-size: 0.9375rem !important;
+        color: rgb(var(--text-secondary)) !important;
+      }
+
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgb(var(--text-primary) / 0.1);
+        font-size: 0.875rem;
+        color: rgb(var(--text-secondary));
+      }
+
+      .footer a {
+        color: rgb(var(--text-secondary));
+        text-decoration: none;
+        border-bottom: 1px dotted rgb(var(--text-secondary) / 0.6);
+      }
+
+      .footer a:hover {
+        color: rgb(var(--accent));
+        border-bottom-color: rgb(var(--accent));
+      }
+    </style>
+  </body>
+</html>
